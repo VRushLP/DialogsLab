@@ -11,12 +11,24 @@
     <!-- buttons -->
     <string name="launch_fire_missiles">Launch Fire Missiles</string>
     <string name="launch_colors">Pick a Color</string>
+    <string name="launch_multi_dialog">Launch Multiple Dialog</string>
 
     <array name="colors_array">
         <item name="red">Red</item>
         <item name="green">Green</item>
         <item name="blue">Blue</item>
     </array>
+
+    <string name="pick_toppings">Pick Toppings</string>
+    <array name="toppings_array">
+        <item name="pepperoni">Pepperoni</item>
+        <item name="mushrooms">Mushrooms</item>
+        <item name="peppers">Peppers</item>
+    </array>
+    <string name="ok">OK</string>
+
+
+
 
 
 </resources>
