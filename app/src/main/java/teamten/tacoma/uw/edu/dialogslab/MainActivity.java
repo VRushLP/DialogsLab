@@ -23,10 +23,12 @@ public class MainActivity extends AppCompatActivity {
             fragment = new MultiListDialogFragment();
         } else if (v.getId() == R.id.custom_button) {
             fragment = new CustomDialogFragment();
+        } else if (v.getId() == R.id.time_button) {
+            fragment = new TimePickerDialogFragment();
+        } else if (v.getId() == R.id.date_button) {
+            fragment = new DatePickerDialogFragment();
         }
         if (fragment != null)
             fragment.show(getSupportFragmentManager(), "launch");
     }
-
-
 }

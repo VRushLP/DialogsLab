@@ -12,6 +12,9 @@
     <string name="launch_fire_missiles">Launch Fire Missiles</string>
     <string name="launch_colors">Pick a Color</string>
     <string name="launch_multi_dialog">Launch Multiple Dialog</string>
+    <string name="launch_time_picker_dialog">Pick a Time</string>
+    <string name="launch_date_picker_dialog">Pick a Date</string>
+
 
     <array name="colors_array">
         <item name="red">Red</item>
