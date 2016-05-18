@@ -21,9 +21,12 @@ public class MainActivity extends AppCompatActivity {
             fragment = new ListDialogFragment();
         } else if (v.getId() == R.id.multi_list_button) {
             fragment = new MultiListDialogFragment();
+        } else if (v.getId() == R.id.custom_button) {
+            fragment = new CustomDialogFragment();
         }
         if (fragment != null)
             fragment.show(getSupportFragmentManager(), "launch");
     }
+
 
 }
