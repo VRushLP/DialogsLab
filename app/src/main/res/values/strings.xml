@@ -10,5 +10,13 @@
 
     <!-- buttons -->
     <string name="launch_fire_missiles">Launch Fire Missiles</string>
+    <string name="launch_colors">Pick a Color</string>
+
+    <array name="colors_array">
+        <item name="red">Red</item>
+        <item name="green">Green</item>
+        <item name="blue">Blue</item>
+    </array>
+
 
 </resources>

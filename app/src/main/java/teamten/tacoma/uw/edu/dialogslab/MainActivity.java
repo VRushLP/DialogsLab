@@ -17,8 +17,10 @@ public class MainActivity extends AppCompatActivity {
         DialogFragment fragment = null;
         if (v.getId() == R.id.fire_missiles_button) {
             fragment = new FireMissilesDialogFragment();
-        } if (fragment != null)
+        } else if (v.getId() == R.id.list_button) {
+            fragment = new ListDialogFragment();
+        }
+        if (fragment != null)
             fragment.show(getSupportFragmentManager(), "launch");
     }
-
 }
